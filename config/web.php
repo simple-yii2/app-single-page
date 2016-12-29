@@ -50,6 +50,8 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 ['pattern' => 'cms', 'route' => '/cms/default/index'],
+                ['pattern' => 'cms/login', 'route' => '/cms/user/login/index'],
+                ['pattern' => 'cms/logout', 'route' => '/cms/user/logout/index'],
                 ['pattern' => 'feedback', 'route' => '/feedback/feedback/index'],
             ],
         ],
