@@ -3,7 +3,8 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-    'id' => 'basic',
+    'id' => 'single-page',
+    'name' => 'My Company',
     'language' => 'en-US',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'storage'],
