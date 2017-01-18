@@ -59,7 +59,7 @@ To add feedback form use `cms\feedback\frontend\widgets\Feedback` widget. Note, 
 
 For more information see [simple-yii2/feedback](https://github.com/simple-yii2/feedback).
 
-### Editable blocks
+### Blocks with user-defined content
 
 Use `Settings` module from the `Modules` menu to solve this issue. In application code block content available with `cms\settings\frontend\widgets\Settings` widget.
 
