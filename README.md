@@ -35,6 +35,8 @@ All you need is set `name` and `language` properties of your application in `con
 
 To receive messages from site you need to configure `mailer` property in `config/web.php` file.
 
+For more information see [yii\swiftmailer\Mailer](http://www.yiiframework.com/doc-2.0/yii-swiftmailer-mailer.html)
+
 ## CONTENT MANAGEMENT SYSTEM
 
 To access content management system open `your_app/cms` page. You can change this address by modifying rule for `urlManager` in `config/web.php`.
