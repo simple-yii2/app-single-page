@@ -25,7 +25,7 @@ Edit the file `config/db.php` with real data.
 - Application won't create the database for you, this has to be done manually before you can access it.
 - Check and edit the other files in the `config/` directory to customize your application as required.
 
-Once the database is configured, open in browser `your_app/cms` page. On first start, the control system will create a tables in database and add the required rows to get started.
+Once the database is configured, open in browser `your_app/cms` page. On first start, the control system will create an tables in database and add the required rows to get started.
 
 ### Application
 
