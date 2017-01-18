@@ -1,5 +1,6 @@
 {
     "name": "simple-yii2/app-single-page",
+    "description": "Single-page site template based on Yii 2 framework.",
     "keywords": ["project template"],
     "type": "project",
     "license": "BSD-3-Clause",
