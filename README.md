@@ -37,6 +37,10 @@ To receive messages from site you need to configure `mailer` property in `config
 
 For more information see [yii\swiftmailer\Mailer](http://www.yiiframework.com/doc-2.0/yii-swiftmailer-mailer.html)
 
+### Domain
+
+Replace `domain.com` with your domain name in `web/.htaccess` and `web/robots.txt` files.
+
 ## CONTENT MANAGEMENT SYSTEM
 
 To access content management system open `your_app/cms` page. You can change this address by modifying rule for `urlManager` in `config/web.php`.
