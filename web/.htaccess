@@ -3,8 +3,8 @@ RewriteEngine on
 AddDefaultCharset UTF-8
 
 # Склейка доменов
-RewriteCond %{HTTP_HOST} ^www.kuhni-premium.ru$ [NC]
-RewriteRule ^(.*)$ http://kuhni-premium.ru/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.domain.com$ [NC]
+RewriteRule ^(.*)$ http://domain.com/$1 [R=301,L]
 
 # Перенаправление на страницы копии
 RewriteCond %{THE_REQUEST} ^.*/index\.php 
